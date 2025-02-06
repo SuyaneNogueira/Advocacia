@@ -1,2 +1,2 @@
 # Advocacia
-Site desenvolvido com a finalidade de facilitar processos de um escritório de advocacia
+O projeto de criação de um site para uma escritório de advocacia visa desenvolver uma plataforma digital que transmita profissionalismo, confiança e acessibilidade aos clientes. Este site servirá como a principal vitrine online do escritório, destacando suas especialidades, equipe de advogados, e serviços oferecidos, além de fornecer informações úteis e interativas para os visitantes.
