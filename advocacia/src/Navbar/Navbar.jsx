@@ -9,7 +9,7 @@ function Navbar() {
         <img src="lawofdefense2.jpg" alt="logo" />
         </div>
         <div className='links-nav'>
-        <a href=""></a>
+        <Link to='/cliente'></Link>
         </div>
     </nav>
     
