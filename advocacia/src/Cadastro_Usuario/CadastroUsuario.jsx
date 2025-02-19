@@ -7,6 +7,10 @@ function CadastroUsuario() {
         <div className='Nome'>
             Nome: <input  type="text" name="" id="" />  
         </div>
+        
+        <div>
+          CPF: <input type="text" name="" id="" />
+        </div>
      
       <div>
         Email: <input type="text" name="" id="" />
