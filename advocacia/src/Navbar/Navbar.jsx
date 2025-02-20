@@ -10,7 +10,7 @@ function Navbar() {
         <img src="lawofdefense2.jpg" alt="logo" />
         </div>
         <div className='links-nav'>
-        <Link to='/cliente'>kj</Link>
+        {/* <Link to='/cliente'>kj</Link> */}
         </div>
     </nav>
 

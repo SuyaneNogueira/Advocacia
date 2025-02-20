@@ -4,17 +4,19 @@ import CadastroUsuario from './Cadastro_Usuario/CadastroUsuario'
 import LoginAdvogados from './Login_Advogados/LoginAdvogados'
 import LoginUsuario from './Login_Usuario/LoginUsuario'
 import Navbar from './Navbar/Navbar'
+import TelaInicial from './Tela_Inicial/TelaInicial'
 
 function App() {
 
 
   return (
     <>
-     {/* <CadastroAdvogados/>
-     <CadastroUsuario/>
-     <LoginUsuario/>
-     <LoginAdvogados/> */}
-     <Navbar />
+    {/* <TelaInicial/> */}
+     {/* <CadastroAdvogados/> */}
+     {/* <CadastroUsuario/> */}
+     {/* <LoginUsuario/> */}
+     {/* <LoginAdvogados/> */}
+     {/* <Navbar /> */}
     </>
   )
 }
