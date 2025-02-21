@@ -7,10 +7,11 @@ function Navbar() {
     
     <nav>
         <div className='logo-nav'> 
-        <img src="lawofdefense2.jpg" alt="logo" />
+        <img src="fotolawdefensetest.jpeg" alt="logo" />
         </div>
         <div className='links-nav'>
         {/* <Link to='/cliente'>kj</Link> */}
+      
         </div>
     </nav>
 
