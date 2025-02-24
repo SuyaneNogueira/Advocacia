@@ -21,7 +21,7 @@ function CadastroUsuario() {
     </div>
 
     <div>
-       <p>Senha:</p> <input type="password" name="" id="" />
+       <p>Senha:</p><input type="password" name="" id="" />
     </div>
       
     <div>
