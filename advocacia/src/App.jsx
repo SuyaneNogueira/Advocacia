@@ -15,7 +15,7 @@ function App() {
     <>
     {/* <TelaInicial/> */}
      {/* <CadastroAdvogados/> */}
-     {/* <CadastroUsuario/> */}
+     <CadastroUsuario/>
      {/* <LoginUsuario/> */}
      {/* <LoginAdvogados/> */}
       {/*<Navbar />*/} 
