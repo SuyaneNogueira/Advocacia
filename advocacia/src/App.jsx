@@ -19,8 +19,8 @@ function App() {
      {/* <LoginUsuario/> */}
      {/* <LoginAdvogados/> */}
       {/*<Navbar />*/} 
-     {/*<Slider/>*/}
-     {/*<Maps />*/}
+    <Slider/> 
+    { /* <Maps /> */}
     </>
   )
 }
