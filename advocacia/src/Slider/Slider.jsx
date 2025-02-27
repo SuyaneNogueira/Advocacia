@@ -13,10 +13,9 @@ import { Swiper,SwiperSlide } from 'swiper/react';
 function Slider() {
 const[slidesPerView,setSliderPerview] = useState (1)
     const data = [
-{id : '1', image: 'https://img.freepik.com/fotos-gratis/natureza-morta-com-a-balanca-da-justica_23-2149776014.jpg?semt=ais_hybrid'},
-{ id : '2', image:'https://www.shutterstock.com/image-photo/lawyer-scales-justice-law-concepts-600nw-2509112733.jpg' },
-{ id : '3', image: 'https://www.shutterstock.com/image-vector/gavel-books-libra-vector-law-600nw-2552631855.jpg'},
-{ id : '4', image: 'https://media.istockphoto.com/id/1388925357/pt/foto/the-statue-of-justice-lady-justice-or-iustitia-justitia-the-roman-goddess-of-justice.jpg?s=612x612&w=0&k=20&c=FPtr0oXvLQJvrOvG9IjX4rc3TrsrAPJldMTJWYkOZvU='},
+{id : '1', image: './Areas de atuacao.png'},
+{ id : '2', image:'Areas de atuacao dois.png' },
+{ id : '3', image: 'Areas de atuacao tres.png'},
 ]
 
 useEffect(() => {
