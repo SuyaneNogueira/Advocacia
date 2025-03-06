@@ -17,14 +17,14 @@ function App() {
     <>
      {/* <TelaInicial/> */}
      {/* <CadastroAdvogados/> */}
-     {/*<CadastroUsuario/>*/}
+     <CadastroUsuario/>
      {/* <LoginUsuario/> */}
      {/* <LoginAdvogados/> */}
      {/*<Navbar />*/} 
      {/*<Slider/>*/}
      {/*<Maps />*/}
      {/* <PerfilAdvogados/> */}
-     <Perfil_Usuario/>
+     {/* <Perfil_Usuario/> */}
     </>
   )
 }
