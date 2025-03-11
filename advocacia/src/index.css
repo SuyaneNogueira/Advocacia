@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+=======
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+    
+#root, body, html{
+    min-height: 100vh;
+}
+>>>>>>> 406259df9dd67823b871df8f1626bcc88876e902

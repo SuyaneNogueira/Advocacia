@@ -3,40 +3,39 @@ import './CadastroUsuario.css'
 import { Link } from 'react-router-dom'
 function CadastroUsuario() {
   return (
-    <div >
-      <div>
-         <img src="./lawofdefense.jpg" alt="" /> <h2>Cadastro</h2>
+    <div className='body-cadastro'>  
+      <div className='bem-vindo'>
+        <div className='itens-bemvindo'>
+        <h1 className='bemvindoh1'>Bem vindo</h1>
+        <h2 className='descricaoh2'>A jornada para uma assessoria jurídica de qualidade começa aqui.</h2>
+        <h3 className='descricaoh3'>Cadastre-se e tenha acesso a advogados comprometidos em oferecer orientação clara e eficiente.</h3>
+        </div>
       </div>
-    <div>
-        <div className='Nome'>
-           <p>Nome Completo: </p> <input  type="text" name="" id="" />  
-        </div>
-        
-        <div>
-         <p>CPF:</p> <input type="text" name="" id="" />
-        </div>
-     
-    <div>
-      <p>Email:</p> <input type="text" name="" id="" />
-    </div>
-
-    <div>
-       <p>Senha:</p><input type="password" name="" id="" />
-    </div>
+      <div className='cadastro'>
+        <div className='container-cadastro'>
+    <div className='iputs-cadastro'>
+      <h1 className='h1cadastro'>Cadastrar</h1>
+      <p className='p-cadastro'>Nome Completo: </p> <input className='input1-cadastro' type="text" name="" id="" />  
+      <p className='p-cadastro'>CPF: </p> <input className='input1-cadastro' type="text" name="" id="" />
+      <p className='p-cadastro'>Email: </p> <input className='input1-cadastro' type="text" name="" id="" />
+      <p className='p-cadastro'>Senha: </p><input className='input1-cadastro' type="password" name="" id="" />
       
-    <div>
-        <img src="./lawofdefense.jpg" alt="" />
+    <div className='button-checkbox'>
+    <div className='input-termos-uso'>
+    <input type="checkbox" name="" id="" /><p> Li e aceito os termos de uso </p>
+    </div>
+    <div className='button-cadastro'>
+      <button>Cadastrar</button>
+    </div>
+    <div className='login-cadastro'>
+    <p>Já possui Cadastro?</p><button>Login</button>
+    </div>
     </div>
       </div>
-
-    <div>
-     Li e aceito os termos de uso <input type="checkbox" name="" id="" />
     </div>
-    <div>
-     <button>Formulario</button> Já possui Cadastro?<button>Login</button>
     </div>
-
     </div>
+   
 
  
   )
