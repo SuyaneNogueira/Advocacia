@@ -1,0 +1,32 @@
+.container-perfil-usuario{
+
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+}
+.imagem-perfil-usuario{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+.div-imagem-usuario{
+
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+ margin-left: 100px;
+
+ 
+ }.perfil-usuario{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaço entre os inputs */
+  margin-right: 500px;
+  margin-top: 100px;
+ }
