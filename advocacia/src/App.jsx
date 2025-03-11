@@ -6,6 +6,7 @@ import LoginAdvogados from './Login_Advogados/LoginAdvogados'
 import LoginUsuario from './Login_Usuario/LoginUsuario'
 import Navbar from './Navbar/Navbar'
 import PerfilAdvogados from './Perfil_Advogados/PerfilAdvogados'
+import Perfil_Usuario from './Perfil_Usuario/Perfil_Usuario'
 import Slider from './Slider/Slider'
 import TelaInicial from './Tela_Inicial/TelaInicial'
 
@@ -14,15 +15,16 @@ function App() {
 
   return (
     <>
-    {/* <TelaInicial/> */}
+     {/* <TelaInicial/> */}
      {/* <CadastroAdvogados/> */}
      <CadastroUsuario/>
      {/* <LoginUsuario/> */}
      {/* <LoginAdvogados/> */}
-      {/*<Navbar />*/} 
+     {/*<Navbar />*/} 
      {/*<Slider/>*/}
      {/*<Maps />*/}
      {/* <PerfilAdvogados/> */}
+     {/* <Perfil_Usuario/> */}
     </>
   )
 }
