@@ -1,131 +1,73 @@
 .body-cadastro{
-    background-image: linear-gradient(to right, #092031, #205179);
-    height: 100vh;
     display: flex;
-}
-.bem-vindo{
-    width: 50%;
-    height: 100%;
-    /* border: 2px solid #cde020; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.itens-bemvindo{
-    /* border: 2px solid #10c99e; */
-    width: 60%;
-    height: 68%;
-    justify-content: center;
-    
-}
-.bemvindoh1{
-    color: #CA3D76;
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 350%;
-    padding: 3%;
-}
-.descricaoh2{
-    color: #FFFFFF;
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 550;
-    font-style: normal;
-    font-size: 180%;
-    padding: 3%;
-}
-.descricaoh3{
-    color: #FFFFFF;
-    font-family: "Inclusive Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 140%;
-    padding: 3%;
-    
-}
-.container-cadastro{
-    background-color: #F9F4EE;
-    width: 50%;
-    height: 70%;
-    border-radius: 20px;
-    /* border: 2px solid #52a04b; */
-    display: flex;    
-    justify-content: center;
-    align-items: center;
-    
+    background-color: #0D293F;
 }
 .cadastro{
-    width: 50%;
-    height: 100%;
-    display: flex;    
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid #52a04b; */
-}
-.iputs-cadastro{
-    /* border: 2px solid #b52792; */
-    width: 85%;
-    height: 90%;
-
-}
-.h1cadastro{
-    height: 15%;
-    color: #B72E66;
-    font-size: 300%;
+    /* border: 2px solid wheat; */
+    width: 55%;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+}
+.iputs-cadastro{
+    /* border: 2px solid purple; */
+    color: #FFFFFF;
+    width: 25vw;
+    
+}
+.h1cadastro{
+    /* border: 2px solid; */
     font-family: "Inknut Antiqua", serif;
     font-weight: 400;
     font-style: normal;
-    /* border: 2px solid #1c3bc5; */
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+
 }
 .p-cadastro{
+    /* border: 2px solid; */
     font-size: 120%;
-    color: #265377;
-    font-family: "Inknut Antiqua", serif;
-    font-weight: 500;
-    font-style: normal;
+    padding-top: 6%;
+    
 }
 .input1-cadastro{
-    background-color: #ffffff00;
+    border: 3px solid #710634;
     width: 100%;
-    height: 9.2%;
-    border: 2px solid #265377;
-    border-radius: 7px;
-    padding-top: 11%;
-    
-    
+    height: 45px;
+    border-radius: 10px;
+    color: #710634;
+    outline: none;
+    padding-left: 1%;
 }
-.button-checkbox{
-    width: 100%;
-    height: 30%;
-    /* border: 2px solid; */
-    
-}
-.input-termos-uso{
-    /* border: 2px solid; */
-    width: 100%;
-    height: 30%;
+.button-termos-uso{
+    /* border: 3px solid #f8f8f8; */
     display: flex;
     justify-content: center;
-    align-items: end;
+    padding-top: 6%;
+    font-size: 110%;
+}
+.termos-uso{
+    padding-left: 2%;
 }
 .button-cadastro{
-    
-    /* border: 2px solid; */
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
+    width: 50%;
+    height: 4vh;
     align-items: center;
-}
-.login-cadastro{
-    /* border: 2px solid; */
-    width: 100%;
-    height: 30%;
+    color: #710634;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 120%;
+    border: 3px solid #710634;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-    align-items: start;
+}
+.img-cadastro{
+    /* border: 2px solid;   */
+    width: 45%;
+    height: 100vh;
 }
