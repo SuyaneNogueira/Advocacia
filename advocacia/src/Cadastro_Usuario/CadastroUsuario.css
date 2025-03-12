@@ -33,15 +33,21 @@
     padding-top: 6%;
     
 }
-.input1-cadastro{
-    border: 3px solid #710634;
+.input1-cadastro {
+    border: 2px solid #ffffff;
     width: 100%;
     height: 45px;
     border-radius: 10px;
     color: #710634;
     outline: none;
     padding-left: 1%;
+    transition: border-color 0.2s ease;
 }
+
+.input1-cadastro:active, .input1-cadastro:focus {
+    border-color: #A03060;  
+}
+
 .button-termos-uso{
     /* border: 3px solid #f8f8f8; */
     display: flex;
@@ -52,19 +58,24 @@
 .termos-uso{
     padding-left: 2%;
 }
-.button-cadastro{
+.button-cadastro {
     width: 50%;
     height: 4vh;
     align-items: center;
-    color: #710634;
+    color: #A03060;
     font-family: "Inknut Antiqua", serif;
     font-weight: 600;
     font-style: normal;
     font-size: 120%;
-    border: 3px solid #710634;
+    border: 3px solid #A03060;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    transition: border-color 0.2s ease;
+}
+
+.button-cadastro:active, .button-cadastro:focus {
+    border-color: #710634; 
 }
 .img-cadastro{
     /* border: 2px solid;   */

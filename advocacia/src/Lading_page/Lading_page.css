@@ -1,0 +1,225 @@
+
+
+
+/* Entrada da lading page */
+
+
+
+.conteiner-lading{
+    height: 100vh;
+    /* border: 3px solid rgb(58, 13, 206); */
+    
+}
+
+.lading-entrada{
+    /* border: 3px solid rgb(50, 205, 55); */
+    width: 100%;
+    height: 100%;
+    background-color: #F9F4EE;
+}
+
+.logo-lading{
+    /* border: 2px solid rgb(212, 205, 16); */
+    height: 10%;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    
+}
+.logo-page{
+    /* border: 2px solid ; */
+    width: 13%;
+    height: 100%;
+    padding-left: 1%;
+}
+.button-lading1{
+    /* border: 2px solid; */
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.button-login-lading{
+    border: 2px solid;
+    border-radius: 10px;
+    color: #710634;
+    width: 9%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 120%;
+}
+.container-info{
+    /* border: 2px solid rgb(212, 117, 16); */
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.bem-vindo-lading{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+   
+}
+.h1-bem-vindo{
+    /* border: 2px solid; */
+    color: #710634;
+    height: 30%;
+    display: flex;
+    padding-left: 7.4%;
+    align-items: end;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 380%;
+}
+.text-bem-vindo{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    padding: 1.5%;
+}
+.p-bem-vindo{
+    /* border: 2px solid; */
+    color: #2d3d51;
+    width: 87%;
+    height: 36%;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 190%;
+    
+}
+.foto-profissional{
+    /* border: 2px solid rgb(0, 51, 255); */
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-foto{
+    /* border: 2px solid rgb(0, 255, 238); */
+    border-radius: 0 0 0 130px;
+    background-color: #710634;
+    width: 50%;
+    height: 70%;
+}
+
+
+
+/* Áreas de atuação da lading page */
+
+
+
+.lading-areas-atuacao{
+    /* border: 2px solid; */
+    background-color: #0D293F;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.espaco-areas{
+    border: 2px solid white;
+    width: 90%;
+    height: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilizando a barra de rolagem inteira */
+::-webkit-scrollbar {
+    width: 5px; /* Largura mais fina */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a21351;
+    border-radius: 8px; /* Aumentando o raio da borda */
+    padding: 1px; /* Adicionando preenchimento */
+    height: 10px;
+    
+  }
+  /* Estilizando a trilha da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background: #e7e7e7; /* Cinza claro para a trilha */
+  }
+  
+  /* Estilizando o polegar da barra de rolagem ao passar o mouse */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e0d3e; /* Cinza mais escuro ao passar o mouse */
+  }
