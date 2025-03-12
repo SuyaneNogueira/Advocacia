@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import './PerfilUsuario.css';
 
 function PerfilUsuario() {
-  const [profileImage, setProfileImage] = useState("https://img.freepik.com/vetores-premium/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3407.jpg?semt=ais_hybrid"); // Estado da imagem de perfil
+  const [profileImage, setProfileImage] = useState(
+    "https://img.freepik.com/vetores-premium/icone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3407.jpg?semt=ais_hybrid"
+  ); // Estado da imagem de perfil
 
   const handleImageChange = (event) => {
     const file = event.target.files[0];
@@ -16,30 +18,30 @@ function PerfilUsuario() {
   };
 
   return (
+    <div className="div-background">
+      <div className="inputs-perfil-usuario">
+        <label>Nome:</label>
+        <input type="text" />
 
-    <div className='container-perfil-usuario'>
-        <h1>Seu Perfil</h1>
-      <div className='perfil-usuario'>
+        <label>Email:</label>
+        <input type="text" />
 
-      <label>Nome:</label>
-      <input type="text" />
+        <label>Senha:</label>
+        <input type="password" />
 
-      <label>Email:</label>
-      <input type="text" />
+        <label>Telefone:</label>
+        <input type="text" />
 
-      <label>Senha:</label>
-      <input type="password" />
-
-      <label>Telefone:</label>
-      <input type="text" />
-
+        <button>Redefinir senha</button>
+        <button>Salvar Mudanças</button>
       </div>
-      <div className='div-imagem-usuario'>
+
+      <div className="div-imagem-usuario">
         <img
           src={profileImage}
           alt="Imagem de Perfil"
           onClick={() => document.getElementById("imageInput").click()}
-          className='imagem-perfil-usuario'
+          className="imagem-perfil-usuario"
         />
         <input
           id="imageInput"
