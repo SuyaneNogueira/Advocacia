@@ -1,32 +1,36 @@
-.container-perfil-usuario{
-
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     justify-content: center;
-}
-.imagem-perfil-usuario{
-
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    cursor: pointer;
-    border: 2px solid #ccc;
-}
-
-.div-imagem-usuario{
-
+.div-background {
+    display: flex; /* Cria um layout flexível */
+    justify-content: space-between; /* Espaça as divs igualmente, deixando uma à esquerda e outra à direita */
+    align-items: flex-start; /* Alinha no topo as divs dentro do contêiner */
+    gap: 20px; /* Espaçamento entre as divs */
+    padding: 20px; /* Adiciona algum espaçamento interno */
+    height: 100vh;
+    background-color: aqua;
+  }
+  
+  .inputs-perfil-usuario {
     display: flex;
-  justify-content: center;
-  align-items: center; 
- margin-left: 100px;
-
- 
- }.perfil-usuario{
-
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* Espaço entre os inputs */
-  margin-right: 500px;
-  margin-top: 100px;
- }
+    flex-direction: column; /* Empilha os campos de input verticalmente */
+    gap: 15px; /* Espaçamento entre os campos de input */
+    margin-top: 200px;
+    margin-left: 300px;
+  }
+  
+  .div-imagem-usuario {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem dentro da div */
+    align-items: center; /* Alinha verticalmente no centro */
+    flex-shrink: 0; /* Evita que a div da imagem encolha */
+    margin-top: 300px;
+    margin-right: 500px;
+    border-radius: 1000px;
+  }
+  
+  .imagem-perfil-usuario {
+    width: 120px; /* Define a largura da imagem */
+    height: 120px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    cursor: pointer; /* Para indicar que a imagem é clicável */
+    
+  }
+  
