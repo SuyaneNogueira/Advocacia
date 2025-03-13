@@ -16,13 +16,14 @@ function CadastroUsuario() {
       <p className='p-cadastro'>Senha: </p><input className='input1-cadastro' type="password" name="" id="" placeholder='1234'/>
       
     <div className='button-termos-uso'>
-    <Checkbox /><p className='termos-uso'> Li e aceito os <Link to='termos-uso'>termos de uso</Link> </p>
+    <Checkbox /><p className='termos-uso'> Li e aceito os <button>termos de uso</button> </p>
     </div>
     <div className='button-termos-uso'>
       <button className='button-cadastro'>Cadastrar</button>
+      
     </div>
     <div className='button-termos-uso'>
-    <p>Já possui Cadastro?</p><Link to='cadastro-login'>Login</Link>
+    <p>Já possui Cadastro?</p><button>Login</button>
     </div>
       </div>
 

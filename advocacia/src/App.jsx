@@ -15,7 +15,9 @@ function App() {
 
   return (
     <>
-    
+    <Lading_page/>
+    {/* <Slider/> */}
+    {/* <Maps/> */}
     </>
   )
 }

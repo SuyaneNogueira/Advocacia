@@ -134,6 +134,136 @@
     border: 2px solid white;
     width: 90%;
     height: 85%;
+    display: flex;
+}
+.container-areas-atuacao{
+    /* border: 5px solid rgb(136, 14, 14); */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-um{
+    /* border: 3px solid rgb(243, 7, 78); */
+    width: 25%;
+    height: 80%;
+    margin: 2%;
+    display: flex;
+}
+.elemento-container-um{
+    /* border: 3px solid rgb(42, 243, 7); */
+    background-color: #F9F4EE;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    height: 65%;
+    margin: 2%;
+}
+.container-dois{
+    /* border: 3px solid rgb(243, 7, 78); */
+    width: 25%;
+    height: 80%;
+    margin: 2%;
+    display: flex;
+    align-items: end;
+}
+.img-advogado-digital{
+    /* border: 2px solid ; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.adv-digital{
+    height: 70%;
+}
+.p-adv-digital{
+    font-size: 130%;
+    margin: 2%;
+    color: #0D293F;
+}
+.img-advogado-previdenciario{
+    /* border: 2px solid ; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.adv-previdenciario{
+    height: 70%;
+}
+.p-adv-previdenciario{
+    font-size: 130%;
+    margin: 2%;
+    color: #0D293F;
+}
+.elemento-container-dois{
+    /* border: 3px solid rgb(42, 243, 7); */
+    background-color: #F9F4EE;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 65%;
+    margin: 2%;
+    
+}
+.container-tres{
+    /* border: 3px solid rgb(243, 7, 78); */
+    width: 25%;
+    height: 80%;
+    margin: 2%;
+    display: flex;
+}
+.elemento-container-tres{
+    /* border: 3px solid rgb(42, 243, 7); */
+    background-color: #F9F4EE;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    height: 65%;
+    margin: 2%;
+}
+
+.detalhe-areas-atuacao{
+    /* border: 3px solid rgb(243, 219, 7); */
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elemento-detalhes{
+    /* border: 3px solid rgb(42, 243, 7); */
+    background-color: #F9F4EE;
+    border-radius: 20px;
+    width: 8%;
+    height: 80%;
+
+}
+.titulo-areas-atuacao{
+    /* border: 3px solid rgb(243, 7, 192); */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-areas{
+    /* border: 3px solid rgb(243, 7, 192); */
+    color: #F9F4EE;
+    
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 350%;
+}
+.h1-atuacao{
+    /* border: 3px solid rgb(243, 7, 192); */
+    color: #F9F4EE;
+    margin: 3%;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 350%;
 }
 
 
