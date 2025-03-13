@@ -15,6 +15,7 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
      {/* <TelaInicial/> */}
      {/* <CadastroAdvogados/> */}
      {/* <CadastroUsuario/> */}
@@ -25,6 +26,9 @@ function App() {
     { /* <Maps /> */}
     <PerfilUsuario />
     {/*< Lading_page />*/}
+=======
+    
+>>>>>>> 045d53f29629fb5bd7d10b61af8fa6a6f6002484
     </>
   )
 }
