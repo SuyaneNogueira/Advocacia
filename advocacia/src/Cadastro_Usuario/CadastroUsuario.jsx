@@ -6,14 +6,6 @@ function CadastroUsuario() {
   
   return (
     <div className='body-cadastro'>  
-      {/* <div className='bem-vindo'>
-        
-        <div className='itens-bemvindo'>
-        <h1 className='bemvindoh1'>Bem vindo</h1>
-        <h2 className='descricaoh2'>A jornada para uma assessoria jurídica de qualidade começa aqui.</h2>
-        <h3 className='descricaoh3'>Cadastre-se e tenha acesso a advogados comprometidos em oferecer orientação clara e eficiente.</h3>
-        </div>
-      </div> */}
       <div className='cadastro'>
         <div className='container-cadastro'>
     <div className='iputs-cadastro'>
@@ -24,13 +16,13 @@ function CadastroUsuario() {
       <p className='p-cadastro'>Senha: </p><input className='input1-cadastro' type="password" name="" id="" placeholder='1234'/>
       
     <div className='button-termos-uso'>
-    <Checkbox /><p className='termos-uso'> Li e aceito os termos de uso </p>
+    <Checkbox /><p className='termos-uso'> Li e aceito os <Link to='termos-uso'>termos de uso</Link> </p>
     </div>
     <div className='button-termos-uso'>
       <button className='button-cadastro'>Cadastrar</button>
     </div>
     <div className='button-termos-uso'>
-    <p>Já possui Cadastro?</p><button>Login</button>
+    <p>Já possui Cadastro?</p><Link to='cadastro-login'>Login</Link>
     </div>
       </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './CadastroAdvogados.css'
+import { Link } from 'react-router-dom'
 function CadastroAdvogados() {
   return (
     <div>
@@ -24,7 +25,7 @@ function CadastroAdvogados() {
         </div>
       </div>
       <div>
-        <button>Cadastrar</button>
+        <Link to='cadastrar-advogado'>Cadastrar</Link>
       </div>
     </div>
   )

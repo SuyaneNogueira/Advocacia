@@ -15,26 +15,7 @@ function App() {
 
   return (
     <>
-     {/* <TelaInicial/> */}
-     {/* <CadastroAdvogados/> */}
-<<<<<<< HEAD
-     {/* <CadastroUsuario/> */}
-     {/* <LoginUsuario/> */}
-=======
-     {/*<CadastroUsuario/> */}
-    {/* <LoginUsuario/> */}
->>>>>>> 81309e12757294d6f65725125e9e674a2e33fd29
-     {/* <LoginAdvogados/> */}
-      {/*<Navbar />*/} 
-    {/*<Slider/> */} 
-    { /* <Maps /> */}
-<<<<<<< HEAD
-    {/*<PerfilUsuario />*/}
-    < Lading_page />
-=======
-    <PerfilUsuario />
     
->>>>>>> 81309e12757294d6f65725125e9e674a2e33fd29
     </>
   )
 }
