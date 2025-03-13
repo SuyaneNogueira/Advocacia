@@ -5,15 +5,17 @@
     gap: 20px; /* Espaçamento entre as divs */
     padding: 20px; /* Adiciona algum espaçamento interno */
     height: 100vh;
-    background-color: aqua;
+    background-color: #0D293F;
   }
   
   .inputs-perfil-usuario {
     display: flex;
     flex-direction: column; /* Empilha os campos de input verticalmente */
     gap: 15px; /* Espaçamento entre os campos de input */
-    margin-top: 200px;
-    margin-left: 300px;
+    margin-top: 125px;
+    margin-left: -3%;
+    font-size: 20px;
+    color: #fff;
   }
   
   .div-imagem-usuario {
@@ -21,16 +23,98 @@
     justify-content: center; /* Centraliza a imagem dentro da div */
     align-items: center; /* Alinha verticalmente no centro */
     flex-shrink: 0; /* Evita que a div da imagem encolha */
-    margin-top: 300px;
-    margin-right: 500px;
-    border-radius: 1000px;
+    margin-top: 9%;
+    margin-right: 11%;
+    border-radius: 5px 90px 5px 5px;
   }
   
   .imagem-perfil-usuario {
-    width: 120px; /* Define a largura da imagem */
-    height: 120px; /* Define a altura da imagem */
-    border-radius: 50%; /* Torna a imagem redonda */
+    width: 450px; /* Define a largura da imagem */
+    height: 500px; /* Define a altura da imagem */
     cursor: pointer; /* Para indicar que a imagem é clicável */
+    border: #f70b0b;
+    border-radius: 0px 0px 0px 95px;
+    background-color: #fff;
     
+  }.inputs-perfil-usuario input {
+
+    width: 360px; /* Largura fixa */
+    height: 31px;
+    border-radius: 10px 10px 10px 10px;
+    border: #f70b0b;
+    }
+ 
+  .botaozinho-perfil {
+  padding: 1.3em 3em;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-right: 70px;
+  height: 40px;
+}
+
+.botaozinho-perfil:hover {
+  background-color: #c4238e;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.botaozinho-perfil:active {
+  transform: translateY(-1px);
+}
+  .butons-do-perfil{
+
+    margin-top: 13%;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     width: 90%;
+     
+  }
+
+  /*///////////////////////////////////////////////////////////////////|*/
+
+  .botaozinho-perfil-dos {
+    padding: 1.3em 3em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 400;
+    color: #000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-right: 15%;
+    margin-left: 10%;
+    height: 40px;
   }
   
+  .botaozinho-perfil-dos:hover {
+    background-color: #c4238e;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .botaozinho-perfil-dos:active {
+    transform: translateY(-1px);
+  }
+ .logo-logo{
+
+width: 60%;
+
+ }
