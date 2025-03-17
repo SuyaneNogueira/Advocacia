@@ -1,0 +1,36 @@
+.div-all-advogados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D293F;
+  }
+
+  
+  .div-conteudo {
+    display: flex;
+    gap: 25px; /* Espaçamento entre as divs */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-perfil-advogados,
+  .div-botao-advogado {
+    display: flex;
+    flex-direction: column; /* Alinha os inputs e o botão verticalmente */
+    align-items: center;
+  }
+  
+  .img-advogado {
+    max-width: 40%; /* Controle o tamanho da imagem */
+    border: 2px solid blue;
+     width: 35%;
+    
+  }
+  
+  .img-advogado img {
+    width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+    height: auto;
+
+  }
+  
