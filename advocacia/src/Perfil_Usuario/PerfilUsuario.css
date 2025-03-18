@@ -13,7 +13,7 @@
     flex-direction: column; /* Empilha os campos de input verticalmente */
     gap: 15px; /* Espaçamento entre os campos de input */
     margin-top: 125px;
-    margin-left: -3%;
+    margin-left: -15%;
     font-size: 20px;
     color: #fff;
   }
@@ -43,23 +43,24 @@
     border-radius: 10px 10px 10px 10px;
     border: #f70b0b;
     }
- 
+ /*//////////////////////////////////BOTÃOS///////////////////////////////////////////////////*/
   .botaozinho-perfil {
-  padding: 1.3em 3em;
-  font-size: 10px;
+  padding: 5px;
+  font-size: 53%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #ffffff;
+  font-weight: 400;
+  color: #fff;
+  background-color: #1C476A;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  outline: none;
+  outline: none;  
   margin-right: 70px;
-  height: 40px;
+  height: 35px;
+  width: 50%;
 }
 
 .botaozinho-perfil:hover {
@@ -85,22 +86,22 @@
   /*///////////////////////////////////////////////////////////////////|*/
 
   .botaozinho-perfil-dos {
-    padding: 1.3em 3em;
-    font-size: 10px;
+    padding: 5px;
+    font-size: 53%;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 2.8px;
     font-weight: 400;
-    color: #000;
-    background-color: #ffffff;
+    color: #ffff;
+    background-color: #1C476A;
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    margin-right: 15%;
-    margin-left: 10%;
-    height: 40px;
+    height: 35px;
+    width: 50%;
+    align-items: center;
   }
   
   .botaozinho-perfil-dos:hover {
@@ -115,6 +116,6 @@
   }
  .logo-logo{
 
-width: 60%;
+  width: 63%;
 
  }
