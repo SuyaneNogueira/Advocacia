@@ -1,4 +1,3 @@
-import React from 'react'
 import './CadastroUsuario.css'
 import { Link } from 'react-router-dom'
 import Checkbox from './Checkbox'
@@ -19,11 +18,11 @@ function CadastroUsuario() {
     <Checkbox /><p className='termos-uso'> Li e aceito os <button>termos de uso</button> </p>
     </div>
     <div className='button-termos-uso'>
-      <button className='button-cadastro'>Cadastrar</button>
+      <Link to='/cadastrar_usuario' className='button-cadastro'>Cadastrar</Link>
       
     </div>
     <div className='button-termos-uso'>
-    <p>Já possui Cadastro?</p><button>Login</button>
+    <p>Já possui Cadastro?</p><Link to='/cadastro_login'>Login</Link>
     </div>
       </div>
 

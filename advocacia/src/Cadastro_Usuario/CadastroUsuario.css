@@ -45,7 +45,7 @@
 }
 
 .input1-cadastro:active, .input1-cadastro:focus {
-    border-color: #A03060;  
+    border-color: #3A96E0;  
 }
 
 .button-termos-uso{
@@ -62,12 +62,12 @@
     width: 50%;
     height: 4vh;
     align-items: center;
-    color: #A03060;
+    color: #3A96E0;
     font-family: "Inknut Antiqua", serif;
     font-weight: 600;
     font-style: normal;
     font-size: 120%;
-    border: 3px solid #A03060;
+    border: 3px solid #3A96E0;
     border-radius: 10px;
     display: flex;
     justify-content: center; 
@@ -75,7 +75,7 @@
 }
 
 .button-cadastro:active, .button-cadastro:focus {
-    border-color: #710634; 
+    border-color: #1c5e94; 
 }
 .img-cadastro{
     /* border: 2px solid;   */
