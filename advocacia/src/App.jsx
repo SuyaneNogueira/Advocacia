@@ -26,7 +26,7 @@ function App() {
       {/*<Navbar />*/} 
     {/*<Slider/> */} 
       {/*<Maps />*/}  
-   {/*<PerfilUsuario />*/}
+  {/*<PerfilUsuario />*/}
    <PerfilAdvogados />
    
 

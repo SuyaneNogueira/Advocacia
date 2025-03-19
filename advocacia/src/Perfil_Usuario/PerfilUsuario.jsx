@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import './PerfilUsuario.css';
 
 function PerfilUsuario() {
-  const [profileImage, setProfileImage] = useState(
-    "https://img.freepiicone-de-perfil-de-avatar-padrao-imagem-de-usuario-de-midia-social-icone-de-avatar-cinza-silhueta-de-perfil-em-branco-ilustracao-vetorial_561158-3407.jpg?semt=ais_hybrid"
-  ); // Estado da imagem de perfil
+  const [profileImage, setProfileImage] = useState(""); // Estado da imagem de perfil
 
   const handleImageChange = (event) => {
     const file = event.target.files[0];
