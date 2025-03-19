@@ -1,21 +1,12 @@
 import './App.css'
-import CadastroAdvogados from './Cadastro_Advogados/CadastroAdvogados'
-import CadastroUsuario from './Cadastro_Usuario/CadastroUsuario'
-import Maps from './Google_Maps/Maps'
-import Lading_page from './Lading_page/Lading_page'
-import LoginAdvogados from './Login_Advogados/LoginAdvogados'
-import LoginUsuario from './Login_Usuario/LoginUsuario'
-import Navbar from './Navbar/Navbar'
-import PerfilAdvogados from './Perfil_Advogados/PerfilAdvogados'
-import PerfilUsuario from './Perfil_Usuario/PerfilUsuario'
-import Slider from './Slider/Slider'
-import TelaInicial from './Tela_Inicial/TelaInicial'
+
 
 function App() {
 
 
   return (
     <>
+<<<<<<< HEAD
     
       {/*<TelaInicial/>*/} 
       {/*<Lading_page/>/*}
@@ -28,6 +19,9 @@ function App() {
       {/*<Maps />*/}  
   {/*<PerfilUsuario />*/}
    <PerfilAdvogados />
+=======
+     
+>>>>>>> 831cf93f1997588c8d5af7e6a589b11591cf4860
    
 
     </>

@@ -41,10 +41,28 @@ function Lading_page() {
           </div>
         </div>
         <div className='container-dois'>
-          <div className='elemento-container-dois'></div>
+          <div className='elemento-container-dois'>
+            <div className='img-advogado-trabalhista'>
+              <img className='adv-trabalhista' src="foto-advogado-trabalhista.png" alt="" />
+              <p className='p-adv-trabalhista'>Advogado trabalhista</p>
+            </div>
+            <div className='img-advogado-ambientalista'>
+              <img className='adv-ambientalista' src="foto-advogado-ambientalista.png" alt="" />
+              <p className='p-adv-ambientalista'>Advogado ambientalista</p>
+            </div>
+          </div>
         </div>
         <div className='container-tres'>
-          <div className='elemento-container-tres'></div>
+          <div className='elemento-container-tres'>
+            <div className='img-advogado-consumidor'>
+              <img className='adv-consumidor' src="foto-advogado-consumidor.png" alt="" />
+              <p className='p-adv-consumidor'>Advogado do consumidor</p>            
+            </div>
+            <div className='img-advogado-imobiliario'>
+              <img className='adv-imobiliario' src="foto-advogado-imobiliaria.png" alt="" />
+              <p className='p-adv-imobiliario'>Advogado imobiliário</p>            
+            </div>
+          </div>
         </div>
       </div>
       <div className='detalhe-areas-atuacao'>

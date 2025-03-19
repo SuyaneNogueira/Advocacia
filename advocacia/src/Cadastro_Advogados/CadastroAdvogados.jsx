@@ -25,7 +25,7 @@ function CadastroAdvogados() {
         </div>
       </div>
       <div>
-        <button>Cadastrar</button>
+        <Link to='/cadastrar_advogado'>Cadastrar</Link>
       </div>
     </div>
   )

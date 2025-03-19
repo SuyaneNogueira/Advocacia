@@ -1,5 +1,7 @@
 import React from 'react'
 import './LoginAdvogados.css'
+import { Link } from 'react-router-dom'
+
 function LoginAdvogados() {
   return (
     <div>
@@ -23,7 +25,7 @@ function LoginAdvogados() {
       <button>Login</button>
     </div>
     <div>
-      você ainda não possui cadastro? <button>Cadastre-se</button>
+      você ainda não possui cadastro? <Link to='botao-cadastro-login'>Cadastre-se</Link>
     </div>
 </div>
     </div>
