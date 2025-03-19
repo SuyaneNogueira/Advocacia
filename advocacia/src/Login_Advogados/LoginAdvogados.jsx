@@ -25,7 +25,7 @@ function LoginAdvogados() {
       <button>Login</button>
     </div>
     <div>
-      você ainda não possui cadastro? <Link to='botao-cadastro-login'>Cadastre-se</Link>
+      você ainda não possui cadastro? <button>Cadastre-se</button>
     </div>
 </div>
     </div>
