@@ -11,7 +11,7 @@ function PerfilAdvogados() {
     <div class="div-perfil-advogados">
      
     <div className='teste-logo-advogado'>
-  <img src="Logo Advocacia.png" alt="" />
+  <img className='teste-img-logo' src="Logo Advocacia.png" alt="" />
 </div>
       
 <div className='div-titulo-advogado'>
