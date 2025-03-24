@@ -5,7 +5,9 @@ import LoginUsuario from "../Login_Usuario/LoginUsuario";
 import Lading_page from "../Lading_page/Lading_page";
 
 const Router = createBrowserRouter([
-    {path: "/cadastro_login", element: <CadastroUsuario/>},
+    {path: "/", element: <Lading_page/>},
+  
+    
 ])
 
 export default Router

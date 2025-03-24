@@ -9,6 +9,7 @@ function Lading_page() {
         <img src="lawofdefense2.jpg" alt="" className='logo-page'/>
         <div className='button-lading1'>
         <button className='button-login-lading'>Login</button>
+        <button className='button-login-lading'>Cadastro</button>
         </div>
       </div>
       <div className='container-info'>
