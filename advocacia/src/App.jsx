@@ -6,7 +6,6 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
     
       {/*<TelaInicial/>*/} 
       {/*<Lading_page/>/*}
@@ -19,9 +18,6 @@ function App() {
       {/*<Maps />*/}  
   {/*<PerfilUsuario />*/}
    <PerfilAdvogados />
-=======
-     
->>>>>>> 831cf93f1997588c8d5af7e6a589b11591cf4860
    
 
     </>
