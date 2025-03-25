@@ -6,7 +6,7 @@ import Lading_page from "../Lading_page/Lading_page";
 import PerfilAdvogados from "../Perfil_Advogados/PerfilAdvogados";
 
 const Router = createBrowserRouter([
-    {path: "/", element: <Lading_page/>},
+    {path: "/", element: <PerfilAdvogados/>},
    
     
 ])
