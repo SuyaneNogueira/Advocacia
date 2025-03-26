@@ -4,8 +4,11 @@ O projeto de criação de um site para uma escritório de advocacia visa desenvo
 Membros da Equipe LAW OF DEFENSE⚖️
 
 1: Suyane Conceição Nogueira
+
 2: Manuel Alejandro Muñoz Gonzalez
+
 3: Fernanda Cardoso
+
 4: Maria Eduarda Knupp Ratto 
  
 
