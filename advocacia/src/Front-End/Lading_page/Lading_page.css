@@ -1,0 +1,427 @@
+
+
+
+/* Entrada da lading page */
+
+
+
+.conteiner-lading{
+    height: 100vh;
+    /* border: 3px solid rgb(58, 13, 206); */
+    
+}
+
+.lading-entrada{
+    /* border: 3px solid rgb(50, 205, 55); */
+    width: 100%;
+    height: 100%;
+    background-color: #F9F4EE;
+}
+
+.logo-lading{
+    /* border: 2px solid rgb(212, 205, 16); */
+    height: 10%;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    
+}
+.logo-page{
+    /* border: 2px solid ; */
+    width: 13%;
+    height: 100%;
+    padding-left: 1%;
+}
+.button-lading1{
+    /* border: 2px solid; */
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.button-login-lading{
+    border: 2px solid;
+    border-radius: 10px;
+    color: #710634;
+    width: 9%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 120%;
+}
+.container-info{
+    /* border: 2px solid rgb(212, 117, 16); */
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.bem-vindo-lading{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+   
+}
+.h1-bem-vindo{
+    /* border: 2px solid; */
+    color: #710634;
+    height: 30%;
+    display: flex;
+    padding-left: 7.4%;
+    align-items: end;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 380%;
+}
+.text-bem-vindo{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    padding: 1.5%;
+}
+.p-bem-vindo{
+    /* border: 2px solid; */
+    color: #2d3d51;
+    width: 87%;
+    height: 36%;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 190%;
+    
+}
+.foto-profissional{
+    /* border: 2px solid rgb(0, 51, 255); */
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-foto{
+    /* border: 2px solid rgb(0, 255, 238); */
+    border-radius: 0 0 0 130px;
+    background-color: #710634;
+    width: 50%;
+    height: 70%;
+}
+
+
+
+/* Áreas de atuação da lading page */
+
+
+
+.lading-areas-atuacao{
+    /* border: 2px solid; */
+    background-color: #0D293F;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.espaco-areas{
+    border: 2px solid white;
+    width: 90%;
+    height: 85%;
+    display: flex;
+}
+.container-areas-atuacao{
+    /* border: 5px solid rgb(136, 14, 14); */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-um{
+    /* border: 3px solid rgb(243, 7, 78); */
+    width: 25%;
+    height: 80%;
+    margin: 2%;
+    display: flex;
+}
+.elemento-container-um{
+    /* border: 3px solid rgb(42, 243, 7); */
+    background-color: #F9F4EE;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    height: 65%;
+    margin: 2%;
+}
+.img-advogado-digital{
+    /* border: 2px solid ; */
+    width: 100%;
+    height: 48%;
+    display: flex;
+    align-items: center;
+    
+}
+.adv-digital{
+    height: 70%;
+    margin: 3%;
+}
+.p-adv-digital{
+    font-size: 130%;
+    color: #0D293F;
+}
+.img-advogado-previdenciario{
+    /* border: 2px solid ; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.adv-previdenciario{
+    height: 60%;
+    margin: 3%;
+}
+.p-adv-previdenciario{
+    font-size: 130%;
+    margin: 3%;
+    color: #0D293F;
+}
+.container-dois{
+    /* border: 3px solid rgb(243, 7, 78); */
+    width: 25%;
+    height: 80%;
+    margin: 2%;
+    display: flex;
+    align-items: end;
+}
+.elemento-container-dois{
+    /* border: 3px solid rgb(42, 243, 7); */
+    background-color: #F9F4EE;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 65%;
+    margin: 2%;
+    
+}
+.img-advogado-trabalhista{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adv-trabalhista{
+    height: 60%;
+    width: 46%;
+    margin: 3%;
+}
+.p-adv-trabalhista{
+    font-size: 130%;
+    color: #0D293F;
+}
+.img-advogado-ambientalista{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adv-ambientalista{
+    height: 60%;
+    width: 43%;
+    margin: 4%;
+}
+.p-adv-ambientalista{
+    font-size: 130%;
+    margin: 3%;
+    color: #0D293F;
+}
+.container-tres{
+    /* border: 3px solid rgb(243, 7, 78); */
+    width: 25%;
+    height: 80%;
+    margin: 2%;
+    display: flex;
+}
+.elemento-container-tres{
+    /* border: 3px solid rgb(42, 243, 7); */
+    background-color: #F9F4EE;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    height: 65%;
+    margin: 2%;
+}
+.img-advogado-consumidor{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adv-consumidor{
+    height: 60%;
+    width: 43%;
+    margin: 4%;
+}
+.p-adv-consumidor{
+    font-size: 130%;
+    margin: 3%;
+    color: #0D293F;
+}
+.img-advogado-imobiliario{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adv-imobiliario{
+    height: 60%;
+    width: 43%;
+    margin: 4%;
+}
+.p-adv-imobiliario{
+    font-size: 130%;
+    margin: 3%;
+    color: #0D293F;
+}
+.detalhe-areas-atuacao{
+    /* border: 3px solid rgb(243, 219, 7); */
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elemento-detalhes{
+    /* border: 3px solid rgb(42, 243, 7); */
+    background-color: #F9F4EE;
+    border-radius: 20px;
+    width: 8%;
+    height: 80%;
+
+}
+.titulo-areas-atuacao{
+    /* border: 3px solid rgb(243, 7, 192); */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-areas{
+    /* border: 3px solid rgb(243, 7, 192); */
+    color: #F9F4EE;
+    
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 350%;
+}
+.h1-atuacao{
+    /* border: 3px solid rgb(243, 7, 192); */
+    color: #F9F4EE;
+    margin: 3%;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 350%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilizando a barra de rolagem inteira */
+::-webkit-scrollbar {
+    width: 5px; /* Largura mais fina */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a21351;
+    border-radius: 8px; /* Aumentando o raio da borda */
+    padding: 1px; /* Adicionando preenchimento */
+    height: 10px;
+    
+  }
+  /* Estilizando a trilha da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background: #e7e7e7; /* Cinza claro para a trilha */
+  }
+  
+  /* Estilizando o polegar da barra de rolagem ao passar o mouse */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e0d3e; /* Cinza mais escuro ao passar o mouse */
+  }
