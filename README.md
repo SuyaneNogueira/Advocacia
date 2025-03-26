@@ -1,6 +1,13 @@
 # LawOfDefense
 O projeto de criação de um site para uma escritório de advocacia visa desenvolver uma plataforma digital que transmita profissionalismo, confiança e acessibilidade aos clientes. Este site servirá como a principal vitrine online do escritório, destacando suas especialidades, equipe de advogados, e serviços oferecidos, além de fornecer informações úteis e interativas para os visitantes.
-Integrantes: Fernanda Cardoso Marciano, Suyane Conceição Nogueira, Maria Eduarda Knupp Ratto e Manuel Alejandro Muñoz González 
+
+Membros da Equipe LAW OF DEFENSE⚖️
+
+1: Suyane Conceição Nogueira
+2: Manuel Alejandro Muñoz Gonzalez
+3: Fernanda Cardoso
+4: Maria Eduarda Knupp Ratto 
+ 
 
 Acompanhe nosso Instagram e fique por dentro das próximas novidades: https://www.instagram.com/lawofdefense/
 
@@ -76,9 +83,3 @@ Listagem dos Processos em Andamento e Concluídos:
 
 RF022: O cliente deve poder visualizar uma lista com seus processos, separados entre "Em andamento" e "Concluídos", além de poder ver os advogados responsáveis por seus processos.
 
-MEMBROS DA EQUIPE LAW OF DEFENSE⚖️
-
-1: Suyane Conceição Nogueira
-2: Manuel Alejandro Muñoz Gonzalez
-3: Maria Eduarda Knupp Ratto
-4: Fernanda Cardoso 
