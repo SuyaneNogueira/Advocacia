@@ -75,9 +75,14 @@ function Lading_page() {
       </div>
     
     </div>
-
-
-
+    </div>
+    <div className='lading-funcionarios'>
+    <div className='titulo-funcionarios'>
+      <h1 className='funcionarios-t'>Funcionários</h1>
+    </div>
+    <div className='container-funcionarios'>
+      div.ele
+    </div>
     </div>
     </div>
   )

@@ -55,6 +55,7 @@
     font-weight: 600;
     font-style: normal;
     font-size: 120%;
+    margin: 0.4%;
 }
 .container-info{
     /* border: 2px solid rgb(212, 117, 16); */
@@ -65,7 +66,7 @@
 .bem-vindo-lading{
     /* border: 2px solid red; */
     height: 100%;
-    width: 50%;
+    width: 60%;
    
 }
 .h1-bem-vindo{
@@ -73,7 +74,7 @@
     color: #710634;
     height: 30%;
     display: flex;
-    padding-left: 7.4%;
+    padding-left: 8.3%;
     align-items: end;
     font-family: "Inknut Antiqua", serif;
     font-weight: 600;
@@ -85,23 +86,26 @@
     display: flex;
     justify-content: center;
     height: 70%;
+    width: 100%;
     padding: 1.5%;
 }
 .p-bem-vindo{
     /* border: 2px solid; */
-    color: #2d3d51;
-    width: 87%;
-    height: 36%;
+    display: flex;
+    color: #1b2430;
+    width: 85%;
+    height: 39%;
     font-family: "Inknut Antiqua", serif;
     font-weight: 600;
     font-style: normal;
     font-size: 190%;
+   
     
 }
 .foto-profissional{
     /* border: 2px solid rgb(0, 51, 255); */
-    height: 90%;
-    width: 50%;
+    height: 100%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,8 +115,8 @@
     /* border: 2px solid rgb(0, 255, 238); */
     border-radius: 0 0 0 130px;
     background-color: #710634;
-    width: 50%;
-    height: 70%;
+    width: 60%;
+    height: 65%;
 }
 
 
@@ -131,7 +135,7 @@
     align-items: center;
 }
 .espaco-areas{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 90%;
     height: 85%;
     display: flex;
@@ -297,7 +301,7 @@
 }
 .detalhe-areas-atuacao{
     /* border: 3px solid rgb(243, 219, 7); */
-    width: 10%;
+    width: 4%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -313,11 +317,12 @@
 }
 .titulo-areas-atuacao{
     /* border: 3px solid rgb(243, 7, 192); */
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .h1-areas{
     /* border: 3px solid rgb(243, 7, 192); */
@@ -326,7 +331,7 @@
     font-family: "Inknut Antiqua", serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 350%;
+    font-size: 380%;
 }
 .h1-atuacao{
     /* border: 3px solid rgb(243, 7, 192); */
@@ -335,11 +340,35 @@
     font-family: "Inknut Antiqua", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 350%;
+    font-size: 380%;
 }
 
 
 
+/* Funcionarios */
+
+
+
+.lading-funcionarios{
+    border: 2px rgb(23, 7, 243);
+    width: 100%;
+    height: 100%;
+}
+.titulo-funcionarios{
+    border: 2px rgb(23, 7, 243);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.funcionarios-t{
+    color: #a21351;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 380%;
+}
 
 
 
