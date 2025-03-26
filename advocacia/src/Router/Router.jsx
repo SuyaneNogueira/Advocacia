@@ -4,7 +4,7 @@ import PerfilAdvogados from "../Front-End/Advogados/Perfil_Advogados/PerfilAdvog
 
 
 const Router = createBrowserRouter([
-    {path: "/", element: <PerfilAdvogados/>},
+    {path: "/", element: <Lading_page/>},
     
     
 ])
