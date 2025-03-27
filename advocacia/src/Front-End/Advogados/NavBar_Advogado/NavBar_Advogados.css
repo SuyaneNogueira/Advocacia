@@ -1,11 +1,33 @@
 .container-advogados-nav{
-border: solid blue;
-height: 130px;
-background-color: aqua;
+border: solid rgb(250, 4, 4);
+height: 160px;
+background-color: #0D293F;
+
 }
 .container-advogados-nav-dois{
 
-border: solid rgb(75, 75, 136);
-width: 15%;
+border: solid rgb(30, 224, 4);
+width: 25%;
 height: 100%;
+display: flex;
+justify-content: center;
+
+}
+.container-advogados-nav-dois img {
+
+    width: 55%;
+    height: 110%;
+}
+
+.container-advogados-nav-tres{
+
+    border: solid purple;
+    width: 70%;
+    height: 19.5%;
+    position: absolute;  
+    top: 0.5; /* Alinha no topo */
+    right: 0; /* Alinha à esquerda */
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }

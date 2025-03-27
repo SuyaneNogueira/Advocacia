@@ -5,16 +5,29 @@ function NavBar_Advogados() {
   return (
     <div className='container-advogados-nav'>
        
+       
     <div className='container-advogados-nav-dois'>
       
-    <div>
+   <img  src="Logo Advocacia.png" alt="" />
 
+   <div className='container-advogados-nav-tres'>
 
-
-
-    </div>
+   <button>
+    allalal
+   </button>
+   <button>
+    allalal
+   </button>
+   <button>
+    allalal
+   </button>
+   
 
    </div>
+       
+
+   </div>
+
 
     </div>
   )
