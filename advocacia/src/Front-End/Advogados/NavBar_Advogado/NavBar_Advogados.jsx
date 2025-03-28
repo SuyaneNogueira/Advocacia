@@ -12,15 +12,20 @@ function NavBar_Advogados() {
 
    <div className='container-advogados-nav-tres'>
 
-   <button>
-    allalal
-   </button>
-   <button>
-    allalal
-   </button>
-   <button>
-    allalal
-   </button>
+   <div class="button-group">
+    <input type="radio" id="svelt" name="frameworks" checked="" />
+    <label for="svelt">Inicio</label>
+  </div>
+
+  <div class="button-group">
+    <input type="radio" id="react" name="frameworks" />
+    <label for="react">Processos</label>
+  </div>
+
+  <div class="button-group">
+    <input type="radio" id="vue" name="frameworks" />
+    <label for="vue">Perfil</label>
+  </div>
    
 
    </div>
