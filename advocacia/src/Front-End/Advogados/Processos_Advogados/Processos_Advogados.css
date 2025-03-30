@@ -1,0 +1,47 @@
+.background-div-processos-ad{
+
+border: solid yellow;
+height: 100vh; 
+background-color: #0D293F ;   
+
+}
+.container-um-processos-advogados{
+
+border: solid rgb(50, 177, 98);
+height: 100%;
+width: 50%;
+background-color: #1D4668;
+}
+
+.all-container-processos-ad{
+
+ border: solid rgb(9, 96, 167);
+ height: 82.5%;
+ display: flex;
+ justify-content: center;
+ gap: 8%;
+}
+.container-dois-processos-advogados{
+
+    border: solid rgb(172, 17, 120);
+    height: 100%;
+    width: 50%;
+    background-color: #1D4668;
+}
+
+.div-conteudo-um-processos-ad{
+
+border: solid green;
+height: 95%;
+}
+
+.container-um-processos-advogados h1{
+
+    margin-left: 35%;
+    color: #ffffff;
+}
+.container-dois-processos-advogados h1{
+
+margin-left: 40%;
+color: #ffffff;
+}
