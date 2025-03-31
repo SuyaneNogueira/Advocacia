@@ -8,7 +8,7 @@ import CadastroAdvogados from "../Front-End/Advogados/Cadastro_Advogados/Cadastr
 
 
 const Router = createBrowserRouter([
-    {path: "/", element: <CadastroAdvogados/>},
+    {path: "/", element: <Lading_page/>},
     
     
 ])
