@@ -13,7 +13,7 @@ function NavBar_Advogados() {
    <div className='container-advogados-nav-tres'>
 
    <div class="button-group">
-    <input type="radio" id="svelt" name="frameworks" checked="" />
+    <input type="radio" id="svelt" name="frameworks" />
     <label for="svelt">Inicio</label>
   </div>
 

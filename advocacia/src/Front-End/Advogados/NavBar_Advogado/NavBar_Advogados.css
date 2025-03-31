@@ -63,7 +63,7 @@ justify-content: center;
   
   .button-group input[type="radio"]:checked + label {
     background-color: white;
-    color: #02375a;
+    color: #710634;
     border: 1px solid #2b426d;
   }
   

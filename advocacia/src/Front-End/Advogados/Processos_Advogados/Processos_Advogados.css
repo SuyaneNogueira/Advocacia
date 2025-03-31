@@ -1,38 +1,40 @@
 .background-div-processos-ad{
 
-border: solid yellow;
+/*border: solid yellow;*/
 height: 100vh; 
 background-color: #0D293F ;   
 
 }
 .container-um-processos-advogados{
 
-border: solid rgb(50, 177, 98);
+/*border: solid rgb(50, 177, 98);*/
 height: 100%;
 width: 50%;
 background-color: #1D4668;
+border-radius: 10px 10px 10px 10px;
 }
 
 .all-container-processos-ad{
 
- border: solid rgb(9, 96, 167);
- height: 82.5%;
+ /*border: solid rgb(9, 96, 167);*/
+ height: 79%;
  display: flex;
  justify-content: center;
  gap: 8%;
 }
 .container-dois-processos-advogados{
 
-    border: solid rgb(172, 17, 120);
+   /*border: solid rgb(172, 17, 120);*/
     height: 100%;
     width: 50%;
     background-color: #1D4668;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .div-conteudo-um-processos-ad{
 
-border: solid green;
-height: 95%;
+/*border: solid green;*/
+height: 94%;
 }
 
 .container-um-processos-advogados h1{
