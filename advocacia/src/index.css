@@ -5,5 +5,5 @@ box-sizing: border-box;
 }
     
 #root, body, html{
-    min-height: 100vh;
+    max-height: 100vh;
 }

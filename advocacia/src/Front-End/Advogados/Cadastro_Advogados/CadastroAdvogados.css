@@ -1,0 +1,55 @@
+.container-all-cadastro-advogados{
+
+ border: solid rgb(43, 43, 126);
+ height: 100vh;
+ background-color: #0D293F;
+ display: flex;
+
+}
+
+
+.div-imagem-cadastro-advogados{
+
+    border: solid green;
+    width: 50%;
+}
+.div-conteudo-cadastro-advogado{
+
+    border: solid gold;
+    width: 50%;
+}
+.imagem-cadastro-advogado{
+    height: 100%;
+    width: 100%;
+}
+.div-inputs-cadastro-advogado{
+
+    border: solid orange;
+    height: 90%;
+  
+}
+.h1-cadastro-advogados{
+
+    color: #ffff;
+    margin-left: 23%;
+    font-size: 37px;
+    margin-top: 3%;
+}
+.div-inputs-cadastro-advogado input{
+
+    width:100%;
+    background-color:  #1C476A;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    height: 20%;
+   
+}
+.div-inputs-cadastro-advogado p{
+    color: #ffff;
+}
+.teste-cadastro-advogado{
+
+    border:  solid grey;
+    height: 50%;
+    padding: 1%;
+}

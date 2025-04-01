@@ -1,0 +1,154 @@
+.teste-inicial-advogados-um{
+
+    width: 40%;
+   /* border: solid purple;*/
+    height: 75%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+
+.teste-inicial-advogados-dois{
+
+    /*border: solid green;*/
+    height: 30%;
+    width: 70%;
+    
+}
+
+.teste-inicial-advogados-tres{
+
+/*border: solid red;*/
+height: 30%;
+width: 70%;
+}
+.container-tela-inicial-advogados{
+
+background-color: #0D293F;
+height: 100vh;
+
+}
+.container-todos-inicial-a{
+
+    /*border: solid orange;*/
+    height: 83%;
+    display: flex;
+    gap: 15px;
+}
+.container-dois-tela-i-ad{
+
+/*border: solid grey;*/
+width: 53%;
+gap: 15%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+/*////////////////////////////////////////////Botões////////////////////////////////////////////////////////*/
+
+.butão-teste-um-ad{
+
+    height: 100%;
+    width: 100%;
+    background-color: #1D4668;
+    font-size: 20px;
+    color: #ffffff;
+   
+}.butão-teste-dois-ad{
+
+    height: 100%;
+    width: 100%;
+    background-color: #1D4668;
+    color: #ffffff;
+    font-size: 20px;
+ 
+
+}
+
+/*///////////////////////////////////////Segunda Parte Botoes///////////////////////////////////////////////////////////////////////////*/
+
+.butão-teste-um-ad {
+  appearance: none;
+  border: 2px solid #1D4668;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.butão-teste-um-ad:disabled {
+  pointer-events: none;
+}
+
+.butão-teste-um-ad:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.butão-teste-um-ad:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+.butão-teste-dois-ad {
+    appearance: none;
+    border: 2px solid #1D4668;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+  }
+  
+  .butão-teste-dois-ad:disabled {
+    pointer-events: none;
+  }
+  
+  .butão-teste-dois-ad:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .butão-teste-dois-ad:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
