@@ -14,31 +14,32 @@ function CadastroAdvogados() {
 
 <div className='teste-cadastro-advogado'>
 
-<div className='input-um-cadastro-advogado'>
+<div className='inputs-teste-cadastro-advogados-um'>
 <p>Nome:</p>
 <input type="text" name="Nome" id="" />
 </div>
-
-<div>
+<div className='inputs-teste-cadastro-advogados-dois'>
 <p>Telefone:</p>
 <input type="text" name="" id="" />
 </div>
-
-<div>
+<div className='inputs-teste-cadastro-advogados-treis'>
 <p>Email</p>
 <input type="Email" />
 </div>
-
-<div>
+<div className='inputs-teste-cadastro-advogados-quatro'>
 <p>OAB:</p>
 <input type="text" />
 </div>
-
-<div>
+<div className='inputs-teste-cadastro-advogados-cinco'>
 <p>Senha:</p>
 <input type="password" />
 </div>
 
+<div>
+  <button>
+    Cadastrar
+  </button>
+</div>
 </div>
 </div>
 </div>

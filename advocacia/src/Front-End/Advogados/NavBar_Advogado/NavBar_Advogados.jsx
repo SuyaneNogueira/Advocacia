@@ -3,23 +3,17 @@ import './NavBar_Advogados.css'
 
 function NavBar_Advogados() {
   return (
-    <div className='container-advogados-nav'>
-       
-       
+ <div className='container-advogados-nav'>   
     <div className='container-advogados-nav-dois'>
-      
-   <img  src="Logo Advocacia.png" alt="" />
-
-   <div className='container-advogados-nav-tres'>
-
-   <div class="button-group">
-    <input type="radio" id="svelt" name="frameworks" />
-    <label for="svelt">Inicio</label>
+        <img  src="Logo Advocacia.png" alt="" />
+  <div className='container-advogados-nav-tres'>
+      <div class="button-group">
+         <input type="radio" id="svelt" name="frameworks" />
+         <label for="svelt">Inicio</label>
   </div>
-
-  <div class="button-group">
-    <input type="radio" id="react" name="frameworks" />
-    <label for="react">Processos</label>
+      <div class="button-group">
+         <input type="radio" id="react" name="frameworks" />
+         <label for="react">Processos</label>
   </div>
 
   <div class="button-group">

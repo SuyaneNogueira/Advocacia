@@ -36,20 +36,16 @@
     margin-top: 3%;
 }
 .div-inputs-cadastro-advogado input{
-
-    width:100%;
+    width:85%;
     background-color:  #1C476A;
     border-radius: 10px 10px 10px 10px;
     border: none;
-    height: 20%;
-   
 }
 .div-inputs-cadastro-advogado p{
-    color: #ffff;
+    color: #ffff;   
 }
-.teste-cadastro-advogado{
+/*///////////////////////////////////////////Inputs//////////////////////////////////////////////////////////////////*/
 
-    border:  solid grey;
-    height: 50%;
-    padding: 1%;
-}
+
+  
+  
