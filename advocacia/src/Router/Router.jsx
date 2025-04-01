@@ -6,11 +6,7 @@ import NavBar_Advogados from "../Front-End/Advogados/NavBar_Advogado/NavBar_Advo
 
 
 const Router = createBrowserRouter([
-<<<<<<< HEAD
     {path: "/", element: <Lading_page/>},
-=======
-    {path: "/", element: <NavBar_Advogados/>},
->>>>>>> 388e779aac473684d245b142b9e613e8e7f463df
     
     
 ])
