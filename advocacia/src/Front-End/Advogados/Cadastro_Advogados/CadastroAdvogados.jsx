@@ -23,7 +23,7 @@ function CadastroAdvogados() {
 <input type="text" name="" id="" />
 </div>
 <div className='inputs-teste-cadastro-advogados-treis'>
-<p>Email</p>
+<p>Email:</p>
 <input type="Email" />
 </div>
 <div className='inputs-teste-cadastro-advogados-quatro'>
@@ -35,11 +35,12 @@ function CadastroAdvogados() {
 <input type="password" />
 </div>
 
-<div>
-  <button>
+<div className='div-button-cadastro-ad'>
+  <button className='button-cadastro-advogado' >
     Cadastrar
   </button>
 </div>
+
 </div>
 </div>
 </div>
