@@ -12,11 +12,11 @@ function CadastroAdvogados() {
 <h1 className='h1-cadastro-advogados'>Cadastro de Advogados</h1>
 <div className='div-inputs-cadastro-advogado'>
 
-<div className='teste-cadastro-advogado'>
+
 
 <div className='inputs-teste-cadastro-advogados-um'>
 <p>Nome:</p>
-<input type="text" name="Nome" id="" />
+<input type="text" name="" id="" />
 </div>
 <div className='inputs-teste-cadastro-advogados-dois'>
 <p>Telefone:</p>
@@ -42,7 +42,7 @@ function CadastroAdvogados() {
 </div>
 
 </div>
-</div>
+
 </div>
 
     </div>
