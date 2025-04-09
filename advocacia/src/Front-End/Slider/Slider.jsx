@@ -13,7 +13,7 @@ import { Swiper,SwiperSlide } from 'swiper/react';
 function Slider() {
 const[slidesPerView,setSliderPerview] = useState (1)
     const data = [
-{id : '1', image: './Areas de atuacao.png'},
+{id : '1', image: 'Áreas de Atuação.png'},
 { id : '2', image:'Areas de atuacao dois.png' },
 { id : '3', image: 'Areas de atuacao tres.png'},
 ]

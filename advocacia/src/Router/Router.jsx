@@ -5,10 +5,12 @@ import Tela_IAdvogado from "../Front-End/Advogados/Tela_Inicial_Advogado/Tela_IA
 import NavBar_Advogados from "../Front-End/Advogados/NavBar_Advogado/NavBar_Advogados";
 import Processos_Advogados from "../Front-End/Advogados/Processos_Advogados/Processos_Advogados";
 import CadastroAdvogados from "../Front-End/Advogados/Cadastro_Advogados/CadastroAdvogados";
+import Slider from "../Front-End/Slider/Slider";
+import Calendario from "../Front-End/Calendario/Calendario";
 
 
 const Router = createBrowserRouter([
-    {path: "/", element: <CadastroAdvogados/>},
+    {path: "/", element: <Slider/>},
     
     
 ])
